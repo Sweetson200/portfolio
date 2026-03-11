@@ -1,0 +1,63 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f5f7fb;
+}
+
+header{
+background:#1f3c88;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+section{
+padding:40px;
+margin:20px;
+background:white;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h2{
+color:#1f3c88;
+}
+
+.skills{
+text-align:center;
+}
+
+.skill-box{
+display:inline-block;
+background:#1f3c88;
+color:white;
+padding:10px 20px;
+margin:10px;
+border-radius:20px;
+}
+
+.projects{
+text-align:center;
+}
+
+.project-card{
+background:#f0f3ff;
+padding:20px;
+margin:20px;
+border-radius:10px;
+}
+
+.github a{
+background:#1f3c88;
+color:white;
+padding:10px 20px;
+text-decoration:none;
+border-radius:5px;
+}
+
+footer{
+text-align:center;
+background:#111;
+color:white;
+padding:20px;
+}
