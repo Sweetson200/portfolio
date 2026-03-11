@@ -4,30 +4,60 @@ margin:0;
 background:#f5f7fb;
 }
 
-header{
+/* Navigation Bar */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
 background:#1f3c88;
+padding:15px 40px;
 color:white;
-text-align:center;
-padding:40px;
 }
 
+nav ul{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav ul li a:hover{
+color:#ff9800;
+}
+
+/* Sections */
+
 section{
-padding:40px;
-margin:20px;
+padding:60px;
+}
+
+/* Home */
+
+.home{
+text-align:center;
+background:#1f3c88;
+color:white;
+}
+
+/* Cards */
+
+.card{
 background:white;
+padding:20px;
+margin:20px 0;
 border-radius:10px;
 box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 
-h2{
-color:#1f3c88;
-}
+/* Skills */
 
-.skills{
-text-align:center;
-}
-
-.skill-box{
+.skill{
 display:inline-block;
 background:#1f3c88;
 color:white;
@@ -36,28 +66,11 @@ margin:10px;
 border-radius:20px;
 }
 
-.projects{
-text-align:center;
-}
-
-.project-card{
-background:#f0f3ff;
-padding:20px;
-margin:20px;
-border-radius:10px;
-}
-
-.github a{
-background:#1f3c88;
-color:white;
-padding:10px 20px;
-text-decoration:none;
-border-radius:5px;
-}
+/* Footer */
 
 footer{
 text-align:center;
+padding:20px;
 background:#111;
 color:white;
-padding:20px;
 }
